@@ -1,0 +1,39 @@
+# Environment secrets & credentials
+.env
+.env.local
+.env.*.local
+*.env
+.streamlit/secrets.toml
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & Vector stores (generated dynamically on first run by seed.py)
+*.db
+*.sqlite3
+chroma_db/
+.chroma/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Audio recordings
+*.wav
+*.mp3

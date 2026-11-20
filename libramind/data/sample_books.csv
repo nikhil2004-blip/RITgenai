@@ -1,0 +1,6 @@
+title,author,subject,isbn,description,published_year,language,copies
+Clean Architecture,Robert C. Martin,Software Engineering,9780134494166,"Practical rules on software structure, boundaries, and component principles for building maintainable enterprise systems.",2017,English,3
+Designing Distributed Systems,Brendan Burns,Cloud,9781491983645,Patterns and paradigms for building scalable microservices and distributed container applications using Kubernetes.,2018,English,2
+Deep Learning with PyTorch,"Eli Stevens, Luca Antiga, Thomas Viehmann",Deep Learning,9781617295263,"Comprehensive practical guide on neural networks, tensors, image recognition, and model deployment using PyTorch.",2020,English,4
+Effective TypeScript,Dan Vanderkam,Web Dev,9781492053743,"62 specific ways to improve your TypeScript code, type system nuances, and interface designs.",2019,English,3
+Show Your Work!,Austin Kleon,Self-help,9780761178972,10 ways to share your creativity and get discovered in the digital age without self-promotion anxiety.,2014,English,2
