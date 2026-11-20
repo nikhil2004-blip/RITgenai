@@ -122,7 +122,7 @@ with st.sidebar:
     # View Toggle
     view_mode = st.radio("Portal View", ["Student Portal", "Librarian Portal"], index=0)
     if view_mode == "Librarian Portal":
-        st.info("Navigate to **pages/2_Admin_Dashboard** from the sidebar menu to view analytics and manage books.")
+        st.switch_page("pages/2_Admin_Dashboard.py")
 
     st.divider()
 

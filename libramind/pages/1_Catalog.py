@@ -13,6 +13,15 @@ from theme import apply_theme
 st.set_page_config(page_title="Catalog - LibraMind", page_icon="📖", layout="wide")
 apply_theme()
 
+with st.sidebar:
+    st.markdown("## 📖 **LibraMind Catalog**")
+    st.caption("Book Discovery & Inventory")
+    if st.button("💬 Go to Student Chat", use_container_width=True):
+        st.switch_page("app.py")
+    if st.button("📊 Go to Admin Dashboard", use_container_width=True):
+        st.switch_page("pages/2_Admin_Dashboard.py")
+    st.divider()
+
 st.title("📖 Library Catalog")
 st.caption("Search, filter, and inspect the library's physical and digital volumes.")
 

@@ -19,6 +19,15 @@ from theme import apply_theme
 st.set_page_config(page_title="Admin Dashboard - LibraMind", page_icon="📊", layout="wide")
 apply_theme()
 
+with st.sidebar:
+    st.markdown("## 📊 **LibraMind Admin**")
+    st.caption("Circulation & Catalog Controls")
+    if st.button("💬 Go to Student Chat", use_container_width=True):
+        st.switch_page("app.py")
+    if st.button("📖 Browse Catalog", use_container_width=True):
+        st.switch_page("pages/1_Catalog.py")
+    st.divider()
+
 st.title("📊 Librarian Admin Dashboard")
 st.caption("Circulation analytics, catalog management, and bulk Excel catalog importation.")
 
